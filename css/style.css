@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header section*/
+.header {
+   background: #818081;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    width: 15%;
+ 
+}
+
+.logo img {
+    width: 100%;
+    float: left;
+}
+
+.menu {
+    width: 85%;
+    float: left;
+}
+
+.menu {
+    list-style: none;
+    text-align: right;
+}
+.menu-item {
+    display: inline-block;
+    font-size: 14px;
+    font-family: sans-serif;
+ 
+}
+.menu-item a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding:  20px 10px;
+}
+.clear {
+    clear: both;
+}
